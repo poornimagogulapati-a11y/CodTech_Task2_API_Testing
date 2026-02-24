@@ -1,0 +1,29 @@
+INTERNSHIP TASK - 2
+CODTECH
+
+TASK:
+Test RESTful APIs using Postman for functionalities like data retrieval.
+
+TOOL USED:
+Postman
+
+API TESTED:
+GET https://dummyjson.com/users
+
+TEST PROCEDURE:
+1. Created a new request in Postman.
+2. Selected GET method.
+3. Entered the API URL.
+4. Clicked Send to execute the request.
+
+TEST RESULT:
+Status Code: 200 OK
+Users data retrieved successfully in JSON format.
+
+CONCLUSION:
+The API is working correctly and data retrieval was successful.
+
+DELIVERABLES:
+- Postman Collection (.json file)
+- Screenshots of test results
+- Documentation file
