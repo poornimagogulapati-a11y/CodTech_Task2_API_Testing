@@ -1,29 +1,50 @@
-INTERNSHIP TASK - 2
-CODTECH
+CODTECH Internship Task-2  
+API Testing using Postman  
 
-TASK:
-Test RESTful APIs using Postman for functionalities like data retrieval.
+Company: CODTECH IT SOLUTIONS
+Intern Name: GOGULAPATI LAKSHMI POORNIMA
+Intern ID: CTIS5653
+Domain: Software Testing  
+Task: API Functional Testing using Postman  
 
-TOOL USED:
-Postman
+--------------------------------------------------
 
-API TESTED:
-GET https://dummyjson.com/users
+Objective:
+To perform functional testing of RESTful APIs using Postman for authentication and data retrieval.
 
-TEST PROCEDURE:
-1. Created a new request in Postman.
-2. Selected GET method.
-3. Entered the API URL.
-4. Clicked Send to execute the request.
+Description:
+This project tests RESTful APIs using Postman to verify successful authentication and data retrieval.
 
-TEST RESULT:
-Status Code: 200 OK
-Users data retrieved successfully in JSON format.
+APIs Tested:
+1. POST https://fakestoreapi.com/auth/login  
+2. GET https://fakestoreapi.com/products  
 
-CONCLUSION:
-The API is working correctly and data retrieval was successful.
+Tools Used:
+- Postman  
+- GitHub  
 
-DELIVERABLES:
-- Postman Collection (.json file)
-- Screenshots of test results
-- Documentation file
+Files Included:
+- CodTech_Task2_API_Testing.postman_collection.json  
+- Task2_Test_Results.txt  
+- post.png  
+- get.png  
+- README.md  
+
+Test Results:
+
+POST Request (Authentication)
+Status Code: 200 OK  
+Authentication successful and token received.
+
+Screenshot:
+![POST Screenshot](post.png)
+
+GET Request (Data Retrieval)
+Status Code: 200 OK  
+Products data retrieved successfully.
+
+Screenshot:
+![GET Screenshot](get.png)
+
+Conclusion:
+The RESTful APIs were successfully tested using Postman. Authentication and data retrieval functionalities are working correctly.
