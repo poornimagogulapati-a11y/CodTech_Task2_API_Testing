@@ -1,9 +1,8 @@
 CODTECH Internship Task-2  
 API Testing with Postman  
-
 Company: CODTECH IT SOLUTIONS  
 Intern Name: GOGULAPATI LAKSHMI POORNIMA  
-Intern ID:CTIS5653
+Intern ID:CTIS5653          
 Domain: Software Testing  
 Duration: 4 Weeks  
 Mentor: Neela Santosh
@@ -66,6 +65,7 @@ POST Request Screenshot
 GET Request Screenshot  
 
 ![GET Request](get.png)
+
 
 
 
