@@ -1,82 +1,68 @@
-# CodTech Internship - Task 2  
-## API Testing using Postman  
+CODTECH Internship Task-2  
+API Testing with Postman  
+
+Company: CODTECH IT SOLUTIONS  
+Intern Name: GOGULAPATI LAKSHMI POORNIMA  
+Intern ID:CTIS5653
+Domain: Software Testing  
+Duration: 4 Weeks  
+Mentor: Neela Santosh
 
 ---
 
-## 📌 Objective  
-To test RESTful APIs using Postman for Authentication and Data Retrieval.
+Objective  
+
+The objective of this project is to perform functional testing of RESTful APIs using Postman. Specifically, the project focuses on:
+
+Testing Authentication APIs to ensure successful login and token generation  
+Testing Data Retrieval APIs to verify that data can be correctly fetched  
+Documenting expected and actual results  
 
 ---
 
-## 🛠 Tool Used  
-- Postman  
+Description  
+
+This project tests RESTful APIs using Postman to verify authentication and data retrieval functionalities. The APIs are tested for correct request handling, valid responses, and successful data exchange.
 
 ---
 
-## 🔐 Authentication API Testing  
+APIs Tested  
 
-**Method:** POST  
-**Endpoint:** https://fakestoreapi.com/auth/login  
-
-### Request Body:
-```json
-{
-  "username": "mor_2314",
-  "password": "83r5^_"
-}
-```
-
-### ✅ Test Result:
-- Status Code: 200 OK  
-- JWT Token generated successfully  
-
-### 📸 Screenshot:
-
-![POST API Result](post.png)
+POST Login API (Authentication)  
+GET Products API (Data Retrieval)  
 
 ---
 
-## 📦 Data Retrieval API Testing  
+Tools Used  
 
-**Method:** GET  
-**Endpoint:** https://fakestoreapi.com/products  
-
-### ✅ Test Result:
-- Status Code: 200 OK  
-- Products data retrieved successfully in JSON format  
-
-### 📸 Screenshot:
-
-![GET API Result](get.png)
+Postman  
 
 ---
 
-## 🧪 Validation Performed  
-- Verified HTTP status codes  
-- Confirmed successful authentication  
-- Validated JSON response format  
-- Ensured proper data retrieval  
+Files in Repository  
+
+CodTech_Task2_API_Testing.postman_collection.json  
+Task2_Test_Results.txt  
+get.png  
+post.png  
+README.md  
 
 ---
 
-## 📂 Repository Structure  
+Conclusion  
 
-```
-CodTech_Task2_API_Testing
-│
-├── CodTech_Task2_API_Testing.postman_collection.json
-├── Task2_Test_Results.txt
-├── README.md
-└── Screenshots
-      ├── post.png
-      └── get.png
-```
+In this project, RESTful APIs were successfully tested using Postman.  
+The Login API returned a success response, and the GET API confirmed data retrieval.  
+All test cases executed as expected and documented in the test report.  
 
 ---
 
-## 🎯 Conclusion  
+Proof of Execution  
 
-The RESTful APIs were successfully tested using Postman.  
-Both Authentication and Data Retrieval functionalities are working correctly.
+POST Request Screenshot  
 
----
+![POST Request](post.png)
+
+GET Request Screenshot  
+
+![GET Request](get.png)
